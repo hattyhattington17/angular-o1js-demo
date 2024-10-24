@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" data-critters-container>
+<head>
+  <meta charset="utf-8">
+  <title>AngularO1jsDemo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="importmap">
+    { "imports": { "o1js": "./lib/o1js/dist/web/index.js" } }
+  </script>
+  <script type="module">
+    import * as o1js from "o1js";
+    window.o1js = o1js;
+    console.log("Set global o1js instance: ", window.o1js);
+    console.log(o1js.Field(-1));
+  </script>
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.befd8261e36cd4e9.js" type="module"></script><script src="polyfills.3c7213a469498c16.js" type="module"></script><script src="main.ce512dcc65071162.js" type="module"></script></body>
+</html>
